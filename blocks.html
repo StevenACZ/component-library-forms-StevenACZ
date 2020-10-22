@@ -283,6 +283,66 @@
           </p>
         </div>
       </section>
+
+      <!-- Form -->
+      <section>
+        <p class="subtitle">Form</p>
+
+        <div class="flex flex-col update-profile">
+          <h2 class="mb-3">Update your profile</h2>
+          <div class="flex flex-col mb-3">
+            <label for="name"> <span class="text-red">*</span> Name</label>
+            <input type="text" class="mt-1" placeholder="Placeholder" id="name" required>
+          </div>
+          <div class="flex flex-col mb-3">
+            <label for="email"> <span class="text-red">*</span> Email</label>
+            <input type="text" class="mt-1" placeholder="Placeholder" id="email" required>
+          </div>
+          <p class="mb-3">Gender</p>
+          <div class="flex mb-3">
+            <label class="form-radio">
+              <input type="radio" name="gender">
+              <span>Female</span>
+            </label>
+            <label class="form-radio">
+              <input type="radio" name="gender">
+              <span>Male</span>
+            </label>
+            <label class="form-radio">
+              <input type="radio" name="gender">
+              <span>Other</span>
+            </label>
+          </div>
+          <div class="flex flex-col">
+            <label class="mb-1" for="country">Country</label>
+            <select class="dropdown mb-3" id="country">
+              <option selected>Select a country</option>
+              <option>Perú</option>
+              <option>Chile</option>
+              <option>Bolivia</option>
+            </select>
+          </div>
+          <p class="mb-3">Favorite languages</p>
+          <div class="flex mb-3">
+            <label class="form-check">
+              <input type="checkbox">
+              <span>Ruby</span>
+            </label>
+            <label class="form-check">
+              <input type="checkbox">
+              <span>JS</span>
+            </label>
+            <label class="form-check">
+              <input type="checkbox">
+              <span>Python</span>
+            </label>
+          </div>
+          <div class="flex mt-3">
+            <button class="button button--primary mr-3">Submit</button>
+            <button class="button button--secundary ml-3">Cancel</button>
+          </div>
+        </div>
+      </section>
     </section>
   
   </main>
