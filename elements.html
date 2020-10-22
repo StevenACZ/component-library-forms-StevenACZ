@@ -447,6 +447,616 @@
           </p>
         </div>
       </section>
+
+      <!-- Input:Checkbox -->
+      <section>
+        <p class="subtitle">Input:Checkbox</p>
+        
+        <div class="flex">
+          <label class="form-check">
+            <input type="checkbox" checked>
+            <span>Checked</span>
+          </label>
+          <label class="form-check">
+            <input type="checkbox">
+            <span>Unchecked</span>
+          </label>
+        </div>
+
+        <div class="editor">
+          <p class="code--green">&lt!-- Input:Checkbox --></p>
+          <p> 
+            <span class="code--blue">&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"flex"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p class="code--green">&nbsp&nbsp&lt!-- Checked --></p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">checked</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Checked</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/label></span>
+          </p>
+          <br>
+          <p class="code--green">&nbsp&nbsp&lt!-- Unchecked --></p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Unchecked</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&lt/div></span> 
+          </p>
+        </div>
+      </section>
+
+      <!-- Checkbox Groups -->
+      <section>
+        <p class="subtitle">Checkbox Groups</p>
+
+        <p class="mb-3">Choose horizontal options:</p>
+        <div class="flex">
+          <label class="form-check">
+            <input type="checkbox" checked>
+            <span>Horizontal 1</span>
+          </label>
+          <label class="form-check">
+            <input type="checkbox">
+            <span>Horizontal 2</span>
+          </label>
+          <label class="form-check">
+            <input type="checkbox">
+            <span>Horizontal 3</span>
+          </label>
+        </div>
+        
+        <p class="mb-3 mt-3"> <span class="text-red">*</span> Choose vertical options:</p>
+        <div class="flex flex-col">
+          <label class="form-check mb-3">
+            <input type="checkbox" checked>
+            <span>Horizontal 1</span>
+          </label>
+          <label class="form-check mb-3">
+            <input type="checkbox">
+            <span>Horizontal 2</span>
+          </label>
+          <label class="form-check mb-3">
+            <input type="checkbox">
+            <span>Horizontal 3</span>
+          </label>
+        </div>
+        <p class="text-red mb-3">Choose at least 1 option</p>
+
+        <div class="editor">
+          <p class="code--green">&lt!-- Horizontal --></p>
+          <p>
+            <span class="code--blue">&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"flex"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">checked</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Horizontal 1</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Horizontal 2</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Horizontal 3</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&ltdiv></span>
+          </p>
+          <br>
+          <p class="code--green">&lt!-- Vertical --></p>
+          <p>
+            <span class="code--blue">&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"flex flex-col"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">checked</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Horizontal 1</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Horizontal 2</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Horizontal 3</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&ltdiv></span>
+          </p>
+        </div>
+      </section>
+
+      <!-- Input:Radio Buttons -->
+      <section class="mb-3">
+        <p class="subtitle">Input:Radio Buttons</p>
+
+        <div class="flex">
+          <label class="form-radio">
+            <input type="radio" name="group1" checked>
+            <span>Checked</span>
+          </label>
+          <label class="form-radio">
+            <input type="radio" name="group2">
+            <span>Unchecked</span>
+          </label>
+        </div>
+
+        <div class="editor">
+          <p class="code--green">&lt!-- Radio Buttons --></p>
+          <p>
+            <span class="code--blue">&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"flex"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p class="code--green">&nbsp&nbsp&lt!-- Checked --></p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-radio"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"radio"</span>
+            <span class="code--red">name=</span>
+            <span class="code--orange">"group1"</span>
+            <span class="code--blue">checked</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Checked</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/label></span>
+          </p>
+          <br>
+          <p class="code--green">&nbsp&nbsp&lt!-- Unchecked --></p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-radio"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Unchecked</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&ltdiv></span>
+          </p>
+        </div>
+      </section>
+
+      <!-- Radio Button Groups -->
+      <section>
+        <p class="subtitle">Radio Button Groups</p>
+
+        <p class="mb-3">Choose horizontal options:</p>
+        <div class="flex">
+          <label class="form-radio">
+            <input type="radio" name="group1">
+            <span>Option 1</span>
+          </label>
+          <label class="form-radio">
+            <input type="radio" name="group1">
+            <span>Option 2</span>
+          </label>
+          <label class="form-radio">
+            <input type="radio" name="group1">
+            <span>Option 3</span>
+          </label>
+        </div>
+  
+        <p class="normal mb-3 mt-3"> <span class="code--red">*</span> Choose vertical options:</p>
+        <div class="flex flex-col">
+          <label class="form-radio mb-3">
+            <input type="radio" name="group1">
+            <span>Option 1</span>
+          </label>
+          <label class="form-radio mb-3">
+            <input type="radio" name="group1">
+            <span>Option 2</span>
+          </label>
+          <label class="form-radio mb-3">
+            <input type="radio" name="group1">
+            <span>Option 3</span>
+          </label>
+        </div>
+        <p class="text-red mb-3">Choose at least 1 option</p>
+
+        <div class="editor">
+          <p class="code--green">&lt!-- Checkbox Group --></p>
+          <p> 
+            <span class="code--blue">&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"flex"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p class="code--green">&nbsp&nbsp&lt!-- Horizontal --></p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"flex"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">checked</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Horizontal 1</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Horizontal 2</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Horizontal 3</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltdiv></span>
+          </p>
+          <br>
+          <p class="code--green">&nbsp&nbsp&lt!-- Vertical --></p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"flex flex-col"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">checked</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Horizontal 1</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Horizontal 2</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"form-check"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"checkbox"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Horizontal 3</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltdiv></span>
+          </p>
+          <p>
+            <span class="code--blue">&lt/div></span> 
+          </p>
+        </div>
+        
+      </section>
+
+      <!-- Input:text -->
+      <section class="mb-3">
+        <p class="subtitle">Input:Text</p>
+
+        <div class="flex flex-col">
+          <input type="text" class="mb-2" placeholder="Placeholder">
+          <input type="text" class="mb-2 focus" value="Focus state">
+          <input type="text" class="mb-2" value="Filled">
+          <input type="text" placeholder="Error" required>
+        </div>
+
+        <div class="editor">
+          <p class="code--green">&lt!-- Input:Text --></p>
+          <p> 
+            <span class="code--blue">&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"flex flex-col"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p class="code--green">&nbsp&nbsp&lt!-- Placeholder --></p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"text"</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"mb-2"</span>
+            <span class="code--red">placeholder=</span>
+            <span class="code--orange">"Placeholder"</span>
+            <span class="code--blue">></span>
+          </p>
+          <br>
+          <p class="code--green">&nbsp&nbsp&lt!-- Focus state --></p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"text"</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"mb-2 focus"</span>
+            <span class="code--red">value=</span>
+            <span class="code--orange">"Focus state"</span>
+            <span class="code--blue">></span>
+          </p>
+          <br>
+          <p class="code--green">&nbsp&nbsp&lt!-- Filled --></p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"text"</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"mb-2"</span>
+            <span class="code--red">value=</span>
+            <span class="code--orange">"Filled"</span>
+            <span class="code--blue">></span>
+          </p>
+          <br>
+          <p class="code--green">&nbsp&nbsp&lt!-- Error --></p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"text"</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"mb-2"</span>
+            <span class="code--red">placeholder=</span>
+            <span class="code--orange">"Error"</span>
+            <span class="code--blue">required</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&lt/div></span> 
+          </p>
+        </div>
+      </section>
+
+      <!-- Input:dropdown -->
+      <section>
+        <p class="subtitle">Input:dropdown</p>
+      </section>
+
+      <!-- Input Group -->
+      <section>
+        <p class="subtitle">Input Group</p>
+      </section>
     </section>
 
   </main>
