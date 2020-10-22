@@ -628,7 +628,7 @@
             <span class="code--blue">&nbsp&nbsp&lt/label></span>
           </p>
           <p>
-            <span class="code--blue">&ltdiv></span>
+            <span class="code--blue">&lt/div></span>
           </p>
           <br>
           <p class="code--green">&lt!-- Vertical --></p>
@@ -700,7 +700,7 @@
             <span class="code--blue">&nbsp&nbsp&lt/label></span>
           </p>
           <p>
-            <span class="code--blue">&ltdiv></span>
+            <span class="code--blue">&lt/div></span>
           </p>
         </div>
       </section>
@@ -775,7 +775,7 @@
             <span class="code--blue">&nbsp&nbsp&lt/label></span>
           </p>
           <p>
-            <span class="code--blue">&ltdiv></span>
+            <span class="code--blue">&lt/div></span>
           </p>
         </div>
       </section>
@@ -894,7 +894,7 @@
             <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&lt/label></span>
           </p>
           <p>
-            <span class="code--blue">&nbsp&nbsp&ltdiv></span>
+            <span class="code--blue">&nbsp&nbsp&lt/div></span>
           </p>
           <br>
           <p class="code--green">&nbsp&nbsp&lt!-- Vertical --></p>
@@ -966,7 +966,7 @@
             <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&lt/label></span>
           </p>
           <p>
-            <span class="code--blue">&nbsp&nbsp&ltdiv></span>
+            <span class="code--blue">&nbsp&nbsp&lt/div></span>
           </p>
           <p>
             <span class="code--blue">&lt/div></span> 
@@ -1051,11 +1051,264 @@
       <!-- Input:dropdown -->
       <section>
         <p class="subtitle">Input:dropdown</p>
+
+        <div class="flex flex-col">
+          <select class="dropdown mb-3">
+            <option selected>Default Option</option>
+            <option>Example 1</option>
+            <option>Example 2</option>
+            <option>Example 3</option>
+          </select>
+          
+          <select class="dropdown focus">
+            <option selected>Focus state</option>
+            <option>Example 1</option>
+            <option>Example 2</option>
+            <option>Example 3</option>
+          </select>
+        </div>
+
+        <div class="editor">
+          <p>
+            <span class="code--green">&lt!-- Dropdown --></span>
+          </p>
+          <p>
+            <span class="code--blue">&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"flex flex-col"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--green">&nbsp&nbsp&lt!-- Normal --></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltselect</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"dropdown mb-3"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltoption</span>
+            <span class="code--blue">selected></span>
+            <span>Default Option</span>
+            <span class="code--blue">&lt/option></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltoption></span>
+            <span>Example 1</span>
+            <span class="code--blue">&lt/option></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltoption></span>
+            <span>Example 2</span>
+            <span class="code--blue">&lt/option></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltoption></span>
+            <span>Example 3</span>
+            <span class="code--blue">&lt/option></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/select></span>
+          </p>
+          <br>
+          <p>
+            <span class="code--green">&nbsp&nbsp&lt!-- Focus state --></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltselect</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"dropdown focus"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltoption</span>
+            <span class="code--blue">selected></span>
+            <span>Default Option</span>
+            <span class="code--blue">&lt/option></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltoption></span>
+            <span>Example 1</span>
+            <span class="code--blue">&lt/option></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltoption></span>
+            <span>Example 2</span>
+            <span class="code--blue">&lt/option></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltoption></span>
+            <span>Example 3</span>
+            <span class="code--blue">&lt/option></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/select></span>
+          </p>
+          <p>
+            <span class="code--blue">&lt/div></span>
+          </p>
+        </div>
       </section>
 
       <!-- Input Group -->
       <section>
         <p class="subtitle">Input Group</p>
+
+        <div class="flex flex-col">
+          <div class="flex flex-col mb-3">
+            <label for="test">Label</label>
+            <input type="text" class="mt-1 mb-1" placeholder="Placeholder" id="test">
+            <span class="text-sm">With hel text</span>
+          </div>
+          
+          <div class="flex items-center mb-3">
+            <label for="test1">Inline</label>
+            <input type="text" class="ml-2" placeholder="Placeholder" id="test1">
+          </div>
+          
+          <div class="flex flex-col">
+            <label for="test2"> <span class="text-red">*</span> Label</label>
+            <input type="text" class="mt-1 mb-1" placeholder="Error" id="test2" required>
+            <span class="text-sm text-red">Error message</span>
+          </div>
+        </div>
+
+        <div class="editor">
+          <p>
+            <span class="code--green">&lt!-- Dropdown --></span>
+          </p>
+          <p>
+            <span class="code--blue">&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"flex flex-col"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--green">&nbsp&nbsp&lt!-- Label --></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"flex flex-col mb-3"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">for=</span>
+            <span class="code--orange">"test"</span>
+            <span class="code--blue">></span>
+            <span>Label</span>
+            <span class="code--blue">&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"text"</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"mt-1 mb-1"</span>
+            <span class="code--red">placeholder=</span>
+            <span class="code--orange">"Placeholder="</span>
+            <span class="code--red">id=</span>
+            <span class="code--orange">"test"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"text-sm"</span>
+            <span class="code--blue">></span>
+            <span>With the text</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/div></span>
+          </p>
+          <br>
+          <p>
+            <span class="code--green">&nbsp&nbsp&lt!-- Label inline --></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"flex items-center mb-3"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">for=</span>
+            <span class="code--orange">"test1"</span>
+            <span class="code--blue">></span>
+            <span>Inline</span>
+            <span class="code--blue">&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"text"</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"ml-2"</span>
+            <span class="code--red">placeholder=</span>
+            <span class="code--orange">"Placeholder="</span>
+            <span class="code--red">id=</span>
+            <span class="code--orange">"test1"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/div></span>
+          </p>
+          <br>
+          <p>
+            <span class="code--green">&nbsp&nbsp&lt!-- Label error --></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"flex flex-col"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltlabel</span>
+            <span class="code--red">for=</span>
+            <span class="code--orange">"test2"</span>
+            <span class="code--blue">></span>
+            <span class="code--blue">&ltspan</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"text-red"</span>
+            <span class="code--blue">></span>
+            <span class="code--red">*</span>
+            <span class="code--blue">&lt/span></span>
+            <span>Label</span>
+            <span class="code--blue">&lt/label></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltinput</span>
+            <span class="code--red">type=</span>
+            <span class="code--orange">"text"</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"mt-1 mb-1"</span>
+            <span class="code--red">placeholder=</span>
+            <span class="code--orange">"Error"</span>
+            <span class="code--red">id=</span>
+            <span class="code--orange">"test2"</span>
+            <span class="code--blue">required</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"text-sm text-red"</span>
+            <span class="code--blue">></span>
+            <span>Error message</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&lt/div></span>
+          </p>
+          <p>
+            <span class="code--blue">&lt/div></span>
+          </p>
+        </div>
       </section>
     </section>
 
